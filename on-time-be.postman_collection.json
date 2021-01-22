@@ -1,0 +1,711 @@
+{
+	"id": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+	"name": "on-time-be",
+	"description": "",
+	"order": [
+		"a85b70c0-7751-84b6-0680-137383e517cd",
+		"7ff61089-94b3-a096-85c6-2000c6429e8e",
+		"af8bf46b-5967-9ee8-2384-541da189a639",
+		"ef6d09ff-267b-57d9-2c08-5a0d0dfb2055",
+		"40196304-a07f-0306-aaac-0c71f2b47570",
+		"c684188a-fcd3-ef75-b426-cd8299a9945f",
+		"fc3a47c4-af4d-c005-eb1a-548625dd9d78",
+		"30267f76-4211-a572-a60a-1e6df55f6081",
+		"2f146c98-dfcb-c135-eef7-bfc6dfe2bcda",
+		"a448a12a-7496-5591-b508-a9aef5f69586"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1608289228642,
+	"owner": "6124382",
+	"public": false,
+	"requests": [
+		{
+			"id": "2f146c98-dfcb-c135-eef7-bfc6dfe2bcda",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjA5MzI4NzYwfQ.UqWWXTDILpmEdF1Ma5IhWHlMUuUBVRb4BGnFmcXKcYs\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjA5MzI4NzYwfQ.UqWWXTDILpmEdF1Ma5IhWHlMUuUBVRb4BGnFmcXKcYs",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/customer/mission-details/17",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+			"data": [],
+			"dataMode": "urlencoded",
+			"name": "mission-details/17",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1609762449378,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "30267f76-4211-a572-a60a-1e6df55f6081",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjA5MzI4NzYwfQ.UqWWXTDILpmEdF1Ma5IhWHlMUuUBVRb4BGnFmcXKcYs\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjA5MzI4NzYwfQ.UqWWXTDILpmEdF1Ma5IhWHlMUuUBVRb4BGnFmcXKcYs",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/customer/book-now",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+			"data": [
+				{
+					"key": "agent_id",
+					"value": "49",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mission_id",
+					"value": "16",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "book-now",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1609752167197,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "40196304-a07f-0306-aaac-0c71f2b47570",
+			"headers": "authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjA5MzI4NzYwfQ.UqWWXTDILpmEdF1Ma5IhWHlMUuUBVRb4BGnFmcXKcYs\n//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjA5MzI4NzYwfQ.UqWWXTDILpmEdF1Ma5IhWHlMUuUBVRb4BGnFmcXKcYs",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3000/customer/profile",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "aman",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "last_name",
+					"value": "don",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "image",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "company_name",
+					"value": "one way1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "profile",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1609415841035,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7ff61089-94b3-a096-85c6-2000c6429e8e",
+			"headers": "authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOjEsImlhdCI6MTYwOTc1NzczNX0.2lGIyhZ4kMqTJC2bPC-OMqb_9yLIpoPPX5t9Q5BJT40\n",
+			"headerData": [
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOjEsImlhdCI6MTYwOTc1NzczNX0.2lGIyhZ4kMqTJC2bPC-OMqb_9yLIpoPPX5t9Q5BJT40",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/veri-fy",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1609758717807,
+			"name": "very-fy-user",
+			"description": "",
+			"collectionId": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+			"responses": []
+		},
+		{
+			"id": "a448a12a-7496-5591-b508-a9aef5f69586",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3000/agent/signup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "aman",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "last_name",
+					"value": "tyagi",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "amanq123@gmail.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "phone",
+					"value": "789456123",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "iban",
+					"value": "321313",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "agent_type",
+					"value": "Agent SSIAP 1",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "home_address",
+					"value": "mohali",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "work_location_address",
+					"value": "punjab",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "lat",
+					"value": "1.5554",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "long",
+					"value": "2.446",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "is_vehicle",
+					"value": "1",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "is_subc",
+					"value": "1",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "supplier_company",
+					"value": "one way it",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "identity_card",
+					"value": "settings.txt",
+					"type": "file",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "social_security_number",
+					"value": "",
+					"type": "file",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "cv",
+					"value": "",
+					"type": "file",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "diploma[]",
+					"value": "",
+					"type": "file",
+					"enabled": false,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1609909850726,
+			"name": "agent/signup",
+			"description": "",
+			"collectionId": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+			"responses": []
+		},
+		{
+			"id": "a85b70c0-7751-84b6-0680-137383e517cd",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/customer/signup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "aman",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "tyagi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "amanq12@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "789456123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "home_address",
+					"value": "mohali 5 phase",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "customer_type",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "terms_conditions",
+					"value": "yes",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1609909832088,
+			"name": "customer/signup",
+			"description": "",
+			"collectionId": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+			"responses": []
+		},
+		{
+			"id": "af8bf46b-5967-9ee8-2384-541da189a639",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "amanq11@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1609392429520,
+			"name": "login",
+			"description": "",
+			"collectionId": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+			"responses": []
+		},
+		{
+			"id": "c684188a-fcd3-ef75-b426-cd8299a9945f",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjA5MzI4NzYwfQ.UqWWXTDILpmEdF1Ma5IhWHlMUuUBVRb4BGnFmcXKcYs\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjA5MzI4NzYwfQ.UqWWXTDILpmEdF1Ma5IhWHlMUuUBVRb4BGnFmcXKcYs",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/customer/quick-create-mission",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "4-jan",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "location",
+					"value": "admin",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "latitude",
+					"value": "48.745193",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "longitude",
+					"value": "2.401373",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "intervention",
+					"value": "Guard service",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "agent_type",
+					"value": "Agent SSIAP 1",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "total_hours",
+					"value": "1",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "quick_book",
+					"value": "1",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "start_date_time",
+					"value": "2020-11-27 12:34:27",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "description",
+					"value": "world is best",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "vehicle_required",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1609759958914,
+			"name": "quick-create-mission",
+			"description": "",
+			"collectionId": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+			"responses": []
+		},
+		{
+			"id": "ef6d09ff-267b-57d9-2c08-5a0d0dfb2055",
+			"headers": "authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOjEsImlhdCI6MTYwOTc1NzczNX0.2lGIyhZ4kMqTJC2bPC-OMqb_9yLIpoPPX5t9Q5BJT40\n",
+			"headerData": [
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOjEsImlhdCI6MTYwOTc1NzczNX0.2lGIyhZ4kMqTJC2bPC-OMqb_9yLIpoPPX5t9Q5BJT40",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/customer/profile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1609758721219,
+			"name": "profile",
+			"description": "",
+			"collectionId": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+			"responses": []
+		},
+		{
+			"id": "fc3a47c4-af4d-c005-eb1a-548625dd9d78",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjA5MzI4NzYwfQ.UqWWXTDILpmEdF1Ma5IhWHlMUuUBVRb4BGnFmcXKcYs\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJhbWFucTExQGdtYWlsLmNvbSIsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjA5MzI4NzYwfQ.UqWWXTDILpmEdF1Ma5IhWHlMUuUBVRb4BGnFmcXKcYs",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/customer/available-agents",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "latitude",
+					"value": "48.7993",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "longitude",
+					"value": "1.7153",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "location",
+					"value": "France",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "searchVal",
+					"value": "true",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "zoom",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "agent_type",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mission_id",
+					"value": "16",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1609752174770,
+			"name": "available-agents",
+			"description": "",
+			"collectionId": "cc56cc51-bbd9-758e-191c-e6911b9a3a67",
+			"responses": []
+		}
+	]
+}
